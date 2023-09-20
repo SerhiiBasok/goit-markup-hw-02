@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Raleway;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -14,10 +14,9 @@ a {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -32,33 +31,24 @@ a {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 0.12;
+  letter-spacing: 0.05em;
+}
+.nav-list {
 }
 .adress {
 }
 .adress-link {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
 }
 .header {
-  background: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
 }
 .header-content {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 1.12px;
+  line-height: 1.07;
+  letter-spacing: 0.03em;
 }
 .button {
   border-radius: 4px;
@@ -68,12 +58,10 @@ a {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+  cursor: pointer;
 }
 
 .advantages {
-  width: 1440px;
-  height: 3300px;
-  background: #fff;
 }
 
 .title-advantages {
@@ -91,7 +79,6 @@ a {
   letter-spacing: 0.32px;
 }
 .personal {
-  background: #f4f4fd;
 }
 .title-team {
   color: #2e2f42;
@@ -105,20 +92,61 @@ a {
 .personal-list {
 }
 .personal-name {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 .personal-role {
+  color: #434455;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .portfolio {
 }
 .portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 .portfolio-content {
 }
 .portfolio-list {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
 }
 .portfolio-class {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
 .footer {
 }
 .footer-content {
+  color: #f4f4fd;
+
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
 }
