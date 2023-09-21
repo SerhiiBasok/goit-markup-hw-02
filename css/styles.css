@@ -15,8 +15,8 @@ a {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   transition: #404bbf;
 }
@@ -36,8 +36,14 @@ a {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 0.12;
-  letter-spacing: 0.05em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-item:hover {
+  color: #404bbf;
+}
+.nav-item:focus {
+  color: #404bbf;
 }
 .nav-list {
 }
@@ -51,9 +57,14 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  transition: #404bbf;
 }
-.adress-link {
+.adress-link:hover {
+  color: #404bbf;
+}
+.adress-link:focus {
+  color: #404bbf;
+}
+.nav-list {
 }
 /*     <!-- Main Content --> */
 .header {
@@ -73,12 +84,16 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: inline-flex;
   align-items: flex-start;
   cursor: pointer;
   color: #ffffff;
-  transition: #404bbf;
   background-color: #4d5ae5;
+}
+.button:hover {
+  color: #404bbf;
+}
+.button:focus {
+  color: #404bbf;
 }
 
 .advantages {
@@ -132,11 +147,13 @@ a {
 }
 /* <!-- Portfolio --> */
 .portfolio {
+  background-color: #f4f4fd;
 }
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
   font-family: Roboto;
+
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -151,7 +168,10 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.2px;
+}
+.portfolio-list-element {
+  background-color: #ffffff;
 }
 .portfolio-class {
   color: #434455;
