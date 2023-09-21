@@ -15,9 +15,10 @@ a {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  transition: #404bbf;
 }
 
 .header-logo .logo-part {
@@ -70,16 +71,14 @@ a {
   border-radius: 4px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: inline-flex;
-  padding: 16px 32px;
   align-items: flex-start;
-  gap: 10px;
   cursor: pointer;
-  line-height: 1, 5;
-  letter-spacing: 0, 04em;
   color: #ffffff;
   transition: #404bbf;
+  background-color: #4d5ae5;
 }
 
 .advantages {
@@ -164,6 +163,7 @@ a {
 }
 /*     <!-- Footer --> */
 .footer {
+  background-color: #2e2f42;
 }
 .footer-content {
   color: #f4f4fd;
@@ -171,5 +171,4 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  background-color: #2e2f42;
 }
