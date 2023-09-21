@@ -113,7 +113,7 @@ a {
 }
 /*   <!-- Personal --> */
 .personal {
-  background-color: #F4F4FD;  
+  background-color: #f4f4fd;
 }
 .title-team {
   color: #2e2f42;
@@ -128,7 +128,7 @@ a {
 .personal-list {
 }
 .personal-list-element {
-     background-color: #ffffff;
+  background-color: #ffffff;
 }
 .personal-name {
   color: #2e2f42;
@@ -149,7 +149,6 @@ a {
 }
 /* <!-- Portfolio --> */
 
-}
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -169,10 +168,9 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 .portfolio-list-element {
- 
 }
 .portfolio-class {
   color: #434455;
