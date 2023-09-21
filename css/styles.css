@@ -83,7 +83,6 @@ a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  align-items: flex-start;
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -170,7 +169,7 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02px;
 }
 .portfolio-list-element {
  
