@@ -10,7 +10,7 @@ a {
 .header-nav {
 }
 
-.logo-web {
+.logo {
   color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
@@ -20,8 +20,12 @@ a {
   text-transform: uppercase;
 }
 
-.logo-studio {
+.header-logo .logo-part {
   color: #2e2f42;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .header-main {
